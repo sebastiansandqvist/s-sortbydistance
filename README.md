@@ -1,8 +1,7 @@
 # s-sortbydistance
 
-[![NPM version](https://img.shields.io/npm/v/s-sortbydistance.svg)](https://www.npmjs.com/package/s-sortbydistance) ![Dependencies](https://img.shields.io/david/sebastiansandqvist/s-sortbydistance.svg) [![build status](http://img.shields.io/travis/sebastiansandqvist/s-sortbydistance.svg)](https://travis-ci.org/sebastiansandqvist/s-sortbydistance) [![NPM license](https://img.shields.io/npm/l/s-sortbydistance.svg)](https://www.npmjs.com/package/s-sortbydistance)
+[![NPM version](https://img.shields.io/npm/v/s-sortbydistance.svg)](https://www.npmjs.com/package/s-sortbydistance) ![Dependencies](https://img.shields.io/david/sebastiansandqvist/s-sortbydistance.svg) [![build status](http://img.shields.io/travis/sebastiansandqvist/s-sortbydistance.svg)](https://travis-ci.org/sebastiansandqvist/s-sortbydistance) [![Test Coverage](https://codeclimate.com/github/sebastiansandqvist/s-sortbydistance/badges/coverage.svg)](https://codeclimate.com/github/sebastiansandqvist/s-sortbydistance/coverage) [![NPM license](https://img.shields.io/npm/l/s-sortbydistance.svg)](https://www.npmjs.com/package/s-sortbydistance)
 
-## About
 Simple way to sort arrays of strings by Levenshtein distance to a string. Useful for implementing fuzzy search. Uses Sift4 algorithm.
 
 ## Installation

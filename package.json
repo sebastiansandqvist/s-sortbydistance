@@ -1,6 +1,6 @@
 {
   "name": "s-sortbydistance",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Sort array of strings by Levenshtein (Sift4) distance",
   "main": "index.js",
   "directories": {
