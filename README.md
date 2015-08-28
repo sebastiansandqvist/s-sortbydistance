@@ -18,6 +18,14 @@ var unsorted = ['foo', 'foobar', 'bar', 'foo1', '~foo~'];
 sort(unsorted, 'foo'); // ['foo', 'foo1', '~foo~', 'foobar', 'bar']
 ```
 
+Configure the sift4 `maxOffset` (default `5`) by setting `sort.maxOffset` before running the sort.
+
+To remove items from the sorted array that are greater than or equal to the maxDistance, pass the maxDistance (Number) as the third argument to the `sort` function.
+```javascript
+var unsorted = ['foo', 'foobar', 'asdasdasdasdasd'];
+sort(unsorted, 'foo', 5); // ['foo', 'foobar'];
+```
+
 ## License (ISC)
 Copyright (c) 2015, Sebastian Sandqvist <s.github@sparque.me>
 
