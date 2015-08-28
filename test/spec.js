@@ -14,6 +14,15 @@ var sort = require('../index.js');
 // ---------------------------------------
 describe('sort', function() {
 
-	it('needs tests');
+	it('sorts by distance to string', function() {
+		var unsorted = ['hasd','asd','asdasdads', 'asd1', 'foo'];
+		var sorted = ['asd', 'hasd', 'asd1', 'foo', 'asdasdads'];
+		expect(sort(unsorted, 'asd')).to.deep.equal(sorted);
+
+		var unsorted2 = ['foo', 'foobar', 'bar', 'foo1', '~foo~'];
+		var sorted2 = ['foo', 'foo1', '~foo~', 'foobar', 'bar'];
+		expect(sort(unsorted2, 'foo')).to.deep.equal(sorted2);
+
+	});
 
 });
