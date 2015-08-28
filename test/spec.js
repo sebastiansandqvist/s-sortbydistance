@@ -7,8 +7,13 @@ require('blanket')({
 });
 
 var expect = require('chai').expect;
-var app = require('../index.js');
+var sort = require('../index.js');
 
 
 // ----- tests
 // ---------------------------------------
+describe('sort', function() {
+
+	it('needs tests');
+
+});
