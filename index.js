@@ -13,17 +13,9 @@ var sift = require('sift-distance');
 function sort(arr, str, max) {
 
 	if (max) {
-		
-		var ret = [];
-
-		for (var i = 0, len = arr.length; i < len; i++) {
-			if (sift(arr[i], str, {maxDistance: max, maxOffset: sort.maxOffset}) < max) {
-				ret.push(arr[i]);
-			}
-		}
-
-		arr = ret;
-
+		arr = arr.filter(function(el) {
+			return sift(el, str, {maxDistance: max, maxOffset: sort.maxOffset}) < max;
+		});
 	}
 
 	var opts = {maxOffset: sort.maxOffset};
